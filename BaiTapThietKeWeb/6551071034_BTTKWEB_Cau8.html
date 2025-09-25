@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 7</title>
+    <style>
+        h1 {
+            color: red;
+            text-align: center;
+        }
+
+        table,
+        td,
+        tr {
+            color: red;
+            background-color: rgb(133, 219, 133);
+            border: 2px solid rgb(28, 7, 7);
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Phiếu đăng ký tham gia chương trình</h1>
+    <table align="center">
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>điện thoại:</td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td>Phái:</td>
+            <td><input type="radio" name="sex">Nam
+                <input type="radio" name="sex">Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Nghề nghiệp:</td>
+            <td>
+                <select>
+                    <option>Giáo viên</option>
+                    <option>Công nhân</option>
+                    <option>bán hàng</option>
+                    <option>nội trợ</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm tham gia:</td>
+            <td>
+                <input type="checkbox" name="sp" value="kem"> Kem đánh răng <br>
+                <input type="checkbox" name="sp" value="bot"> Bột giặt <br>
+                <input type="checkbox" name="sp" value="dau"> Dầu gội đầu <br>
+                <input type="checkbox" name="sp" value="sua"> Sữa tắm
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="đồng ý">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
